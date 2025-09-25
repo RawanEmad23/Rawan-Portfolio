@@ -1,7 +1,6 @@
 "use client";
 
 import About from "../About/page";
-import ContactPage from "../ContactUs/page";
 import ProjectsPage from "../Projects/page";
 import SkillsPage from "../Skills/Page";
 import { motion } from "framer-motion";
@@ -65,7 +64,7 @@ export default function Home() {
       <About />
       <ProjectsPage />
       <SkillsPage />
-      {/* <ContactPage/> */}
+     
     </div>
   );
 }
