@@ -40,6 +40,7 @@ export default function ContactPage() {
                  bg-gradient-to-r from-pink-50 via-purple-50 to-pink-100 
                  dark:bg-gradient-to-r dark:from-gray-900 dark:via-purple-950 dark:to-gray-900 
                  transition-colors duration-500 px-6 py-16"
+                 id="contactus"  
     >
       <div className="max-w-2xl w-full text-center">
        

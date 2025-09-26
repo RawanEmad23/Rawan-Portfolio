@@ -9,7 +9,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
   const [theme, setTheme] = useState(null);
-  const links = ["Home", "About", "Projects", "Skills"];
+  const links = ["Home", "About", "Projects", "Skills","ContactUs"];
 
   useEffect(() => {
     const updateActiveSection = () => {
@@ -82,7 +82,6 @@ export default function Navbar() {
                  fixed w-full top-0 z-50 transition-colors duration-500"
     >
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 py-4">
-        {/* Logo */}
         <h1 className="text-2xl font-extrabold tracking-wide cursor-pointer 
                        text-black dark:text-white">
           Rawan<span className="text-pink-500 dark:text-pink-400">.</span>
@@ -132,7 +131,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <AnimatePresence>
         {open && (
           <motion.div
